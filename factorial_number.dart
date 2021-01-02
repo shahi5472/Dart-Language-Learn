@@ -5,6 +5,6 @@ class FactorialNumber {
     for (int i = 1; i <= value; i++) {
       fact = fact * i;
     }
-    print("Factorial number is ${fact}");
+    print("\nFactorial number is ${fact}");
   }
 }
