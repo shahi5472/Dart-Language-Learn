@@ -1,7 +1,9 @@
-void main(){
-  for (int i = 0; i < 100; i++) {
-    if (i % 2 != 0) {
-      print("Odd ${i}");
+class OddNumber {
+  static void oddNumber(int value) {
+    for (int i = 0; i < value; i++) {
+      if (i % 2 != 0) {
+        print("Odd ${i}");
+      }
     }
   }
 }
