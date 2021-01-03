@@ -2,6 +2,7 @@ import '../welcome.dart';
 import '../even_number.dart';
 import '../odd_number.dart';
 import '../factorial_number.dart';
+import '../data_type.dart';
 
 void main() {
   //For Welcome print
@@ -15,4 +16,8 @@ void main() {
 
   //For Factorial number print
   FactorialNumber.factorialNumber(5);
+
+  //For DataType in dart
+  DataType("Shahi", 25, 16000, true, ["Hello", "world"],
+      {"name": "Hello", "age": 10});
 }
